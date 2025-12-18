@@ -22,7 +22,7 @@ Struktur data:
 ## Visualisasi
 
 ### Proporsi Tweet Toxic vs Non-Toxic
-![Proporsi](output/figures/proporsi_toxic_non_toxic.png)
+![Proporsi](output/figures/Proporsi_Toxic_vs_Non-Toxic.png)
 
 ### Panjang Tweet Toxic vs Non-Toxic
 ![Panjang Tweet](output/figures/panjang_tweet_toxic_non_toxic.png)
