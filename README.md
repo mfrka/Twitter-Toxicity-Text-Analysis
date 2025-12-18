@@ -26,10 +26,23 @@ Struktur data:
 - `tweet` : Teks tweet
 
 
+## Metodologi Analisis
+
+Alur analisis disusun sesuai urutan sintaks R, sebagai berikut:
+1. Persiapan & Import Library
+2. Load Data & Pemeriksaan Awal
+3. Menghitung & Membersihkan teks
+4. Analisis Distribusi Label & Panjang Tweet
+5. Tokenisasi Tweet Menjadi Kata
+6. Identifikasi Kata Paling Sering Muncul Secara Global
+7. Identifikasi Kata Paling Sering muncul Setiap Kategori
+
+
 ## Visualisasi
 
 ### Proporsi Tweet Toxic vs Non-Toxic
 ![Proporsi](output/figures/Proporsi_Toxic_vs_Non-Toxic.png)
+Dataset ini didominasi oleh tweet Non-Toxic (93%), sedangkan tweet Toxic hanya menyumbang sebagian kecil data (7%).
 
 ### Panjang Tweet Toxic vs Non-Toxic
 ![Panjang Tweet](output/figures/Panjang_Tweet_Toxic_vs_Non-Toxic.png)
