@@ -42,10 +42,14 @@ Alur analisis disusun sesuai urutan sintaks R, sebagai berikut:
 
 ### Proporsi Tweet Toxic vs Non-Toxic
 ![Proporsi](output/figures/Proporsi_Toxic_vs_Non-Toxic.png)
-Dataset ini didominasi oleh tweet Non-Toxic (93%), sedangkan tweet Toxic hanya menyumbang sebagian kecil data (7%).
+Visualisasi ini menunjukkan distribusi label pada dataset tweet. Dataset ini didominasi oleh tweet "Non-Toxic" (93%), sedangkan tweet "Toxic" hanya menyumbang sebagian kecil data (7%).
 
 ### Panjang Tweet Toxic vs Non-Toxic
 ![Panjang Tweet](output/figures/Panjang_Tweet_Toxic_vs_Non-Toxic.png)
+Visualisasi ini menunjukkan perbedaan distribusi panjang tweet antara kategori Toxic dan Non-Toxic.
+Secara umum, tweet Toxic cenderung memiliki panjang yang sedikit lebih tinggi dibandingkan tweet Non-Toxic, baik dilihat dari nilai median maupun rentang sebarannya.
+
+Temuan ini mengindikasikan bahwa tweet yang bersifat toxic cenderung menggunakan lebih banyak kata atau karakter dalam mengekspresikan opini atau emosi tertentu, meskipun kedua kategori tetap menunjukkan variasi panjang tweet yang cukup besar.
 
 ### 15 Kata Paling Sering Muncul
 ![Top Words](output/figures/15_Kata_Paling_Sering_Muncul.png)
