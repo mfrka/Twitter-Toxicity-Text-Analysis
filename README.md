@@ -46,18 +46,31 @@ Visualisasi ini menunjukkan distribusi label pada dataset tweet. Dataset ini did
 
 ### Panjang Tweet Toxic vs Non-Toxic
 ![Panjang Tweet](output/figures/Panjang_Tweet_Toxic_vs_Non-Toxic.png)
-Visualisasi ini menunjukkan perbedaan distribusi panjang tweet antara kategori Toxic dan Non-Toxic.
-Secara umum, tweet Toxic cenderung memiliki panjang yang sedikit lebih tinggi dibandingkan tweet Non-Toxic, baik dilihat dari nilai median maupun rentang sebarannya.
+Visualisasi ini menunjukkan perbedaan distribusi panjang tweet antara kategori "Toxic" dan "Non-Toxic".
+Secara umum, "tweet Toxic" cenderung memiliki panjang yang sedikit lebih tinggi dibandingkan "tweet Non-Toxic", baik dilihat dari nilai median (nilai tengah) maupun rentang sebarannya.
 
-Temuan ini mengindikasikan bahwa tweet yang bersifat toxic cenderung menggunakan lebih banyak kata atau karakter dalam mengekspresikan opini atau emosi tertentu, meskipun kedua kategori tetap menunjukkan variasi panjang tweet yang cukup besar.
+Temuan ini mengindikasikan bahwa tweet yang bersifat "toxic" cenderung menggunakan lebih banyak kata atau karakter dalam mengekspresikan opini atau emosi tertentu, meskipun kedua kategori tetap menunjukkan variasi panjang tweet yang cukup besar.
 
 ### 15 Kata Paling Sering Muncul
 ![Top Words](output/figures/15_Kata_Paling_Sering_Muncul.png)
-Visualisasi ini menampilkan 15 kata yang paling sering muncul berdasarkan keseluruhan dataset tweet setelah proses pembersihan teks.
+Visualisasi ini menampilkan 15 kata yang paling sering muncul berdasarkan keseluruhan dataset "tweet" setelah proses pembersihan teks.
 
-Terlihat bahwa kata "user" merupakan kata yang paling dominan, yang mengindikasikan tingginya penggunaan mention atau rujukan terhadap pengguna lain dalam percakapan di Twitter. Selain itu, kata-kata seperti "love", "happy", "thankful", dan "positive" juga muncul dengan frekuensi tinggi, menunjukkan bahwa secara umum konten tweet dalam dataset ini didominasi oleh ekspresi emosional yang bersifat positif.
+Terlihat bahwa kata "user" merupakan kata yang paling dominan, yang mengindikasikan tingginya penggunaan mention atau rujukan terhadap pengguna lain dalam percakapan di "Twitter". Selain itu, kata-kata seperti "love", "happy", "thankful", dan "positive" juga muncul dengan frekuensi tinggi, menunjukkan bahwa secara umum konten tweet dalam dataset ini didominasi oleh ekspresi emosional yang bersifat positif.
 
-Temuan ini juga sejalan dengan distribusi label sebelumnya, di mana sebagian besar tweet dikategorikan sebagai Non-Toxic, sehingga kata-kata bernuansa positif lebih banyak muncul dalam keseluruhan dataset.
+Temuan ini juga sejalan dengan distribusi label sebelumnya, di mana sebagian besar tweet dikategorikan sebagai "Non-Toxic", sehingga kata-kata bernuansa positif lebih banyak muncul dalam keseluruhan dataset.
 
 ### Top Tweet Toxic vs Non-Toxic
 ![Top Tweet](output/figures/Top_Tweet_Toxic_vs_Non-Toxic.png)
+Visualisasi ini menampilkan 10 kata yang paling sering muncul pada masing-masing kategori tweet, yaitu "Non-Toxic" dan "Toxic".
+
+Pada kategori "Non-Toxic", kata-kata yang dominan cenderung bersifat netral hingga positif, seperti "love", "happy", "thankful", dan "positive". Hal ini menunjukkan bahwa tweet Non-Toxic umumnya digunakan untuk mengekspresikan emosi positif, interaksi sosial, serta aktivitas sehari-hari.
+
+Sebaliknya, pada kategori "Toxic", selain kata umum seperti "user", mulai muncul kata-kata yang berkaitan dengan isu sensitif dan konfrontatif, seperti "trump", "libtard", "racist", serta istilah yang berkaitan dengan politik dan identitas sosial. Pola ini mengindikasikan bahwa tweet Toxic lebih sering mengandung topik yang bersifat provokatif atau berpotensi menimbulkan konflik.
+
+Perbedaan pola kata ini menunjukkan adanya karakteristik bahasa yang berbeda antara "tweet Toxic" dan "Non-Toxic", yang dapat menjadi dasar awal dalam proses analisis teks dan pengembangan model klasifikasi di tahap selanjutnya.
+
+
+## Kesimpulan 
+Dataset didominasi oleh "tweet Non-Toxic" dengan pola bahasa yang cenderung positif. Sebaliknya, "tweet Toxic" memiliki pola bahasa yang berbeda, ditandai dengan penggunaan kata-kata yang lebih konfrontatif dan berkaitan dengan isu sensitif. Perbedaan karakteristik kata dan panjang tweet antara kategori "Toxic" dan "Non-Toxic" menunjukkan potensi fitur teks dalam mendukung analisis dan klasifikasi "toxic tweet".
+
+Temuan ini menegaskan bahwa data teks, meskipun bersifat tidak terstruktur, dapat diolah menjadi informasi yang bermakna melalui proses eksplorasi dan ekstraksi fitur, sehingga memberikan dasar yang kuat bagi analisis data dan pengembangan model berbasis teks.
