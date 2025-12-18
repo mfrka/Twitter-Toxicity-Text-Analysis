@@ -53,6 +53,11 @@ Temuan ini mengindikasikan bahwa tweet yang bersifat toxic cenderung menggunakan
 
 ### 15 Kata Paling Sering Muncul
 ![Top Words](output/figures/15_Kata_Paling_Sering_Muncul.png)
+Visualisasi ini menampilkan 15 kata yang paling sering muncul berdasarkan keseluruhan dataset tweet setelah proses pembersihan teks.
+
+Terlihat bahwa kata "user" merupakan kata yang paling dominan, yang mengindikasikan tingginya penggunaan mention atau rujukan terhadap pengguna lain dalam percakapan di Twitter. Selain itu, kata-kata seperti "love", "happy", "thankful", dan "positive" juga muncul dengan frekuensi tinggi, menunjukkan bahwa secara umum konten tweet dalam dataset ini didominasi oleh ekspresi emosional yang bersifat positif.
+
+Temuan ini juga sejalan dengan distribusi label sebelumnya, di mana sebagian besar tweet dikategorikan sebagai Non-Toxic, sehingga kata-kata bernuansa positif lebih banyak muncul dalam keseluruhan dataset.
 
 ### Top Tweet Toxic vs Non-Toxic
 ![Top Tweet](output/figures/Top_Tweet_Toxic_vs_Non-Toxic.png)
