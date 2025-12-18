@@ -28,7 +28,7 @@ Struktur data:
 ![Panjang Tweet](output/figures/Panjang tweet Toxic vs Non-Toxic.png)
 
 ### 15 Kata Paling Sering Muncul
-![Top Words](output/figures/15 Kata Paling Sering Muncul.png)
+![Top Words](output/figures/15_Kata_Paling_Sering_Muncul.png)
 
 ### Top Tweet Toxic vs Non-Toxic
 ![Top Tweet](output/figures/Top Tweet Toxic vs Non-Toxic.png)
