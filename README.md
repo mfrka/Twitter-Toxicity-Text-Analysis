@@ -22,13 +22,13 @@ Struktur data:
 ## Visualisasi
 
 ### Proporsi Tweet Toxic vs Non-Toxic
-![Proporsi](output/figures/Proporsi_Toxic_vs_Non-Toxic.png)
+![Proporsi](output/figures/Proporsi Toxic vs Non-Toxic.png)
 
 ### Panjang Tweet Toxic vs Non-Toxic
-![Panjang Tweet](output/figures/panjang_tweet_toxic_non_toxic.png)
+![Panjang Tweet](output/figures/Panjang tweet Toxic vs Non-Toxic.png)
 
 ### 15 Kata Paling Sering Muncul
-![Top Words](output/figures/top_15_kata.png)
+![Top Words](output/figures/15 Kata Paling Sering Muncul.png)
 
 ### Top Tweet Toxic vs Non-Toxic
-![Top Tweet](output/figures/top_tweet_toxic_non_toxic.png)
+![Top Tweet](output/figures/Top Tweet Toxic vs Non-Toxic.png)
