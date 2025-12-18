@@ -19,4 +19,18 @@ Struktur data:
 - `label` : Kategori tweet (toxic / non-toxic)
 - `tweet` : Teks tweet
 
+## Visualisasi
+
+### Proporsi Tweet Toxic vs Non-Toxic
+![Proporsi](output/figures/Proporsi Toxic vs Non-Toxic.png)
+
+### Panjang tweet Toxic vs Non-Toxic
+![Top Words](output/figures/Panjang tweet Toxic vs Non-Toxic.png)
+
+### 15 Kata Paling Sering Muncul
+![Proporsi](output/figures/15 Kata Paling Sering Muncul.png)
+
+### Top Tweet Toxic vs Non-Toxic
+![Panjang Tweet](output/figures/Top Tweet Toxic vs Non-Toxic.png)
+
 
