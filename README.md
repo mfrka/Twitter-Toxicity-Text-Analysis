@@ -3,7 +3,7 @@
 ## Deskripsi Singkat
 
 Proyek ini bertujuan untuk menganalisis teks tweet dan mengidentifikasi perbedaan karakteristik antara tweet toxic dan non-toxic menggunakan
-pendekatan text mining dan visualisasi data. Analisis dilakukan dengan bahasa R melalui tahapan pembersihan teks, tokenisasi, analisis frekuensi kata, 
+pendekatan text mining dan visualisasi data. Analisis dilakukan dengan bahasa pemrograman R melalui tahapan pembersihan teks, tokenisasi, analisis frekuensi kata, 
 serta TF-IDF untuk mengidentifikasi kata-kata yang paling khas pada masing-masing kategori.
 
 
